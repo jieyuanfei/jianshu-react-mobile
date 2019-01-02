@@ -1,0 +1,31 @@
+{
+  "name": "JueJinClient",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "start": "node node_modules/react-native/local-cli/cli.js start",
+    "test": "jest"
+  },
+  "dependencies": {
+    "react": "16.0.0-alpha.12",
+    "react-native": "0.45.1",
+    "react-native-deprecated-custom-components": "^0.1.2",
+    "react-native-easy-toast": "^1.1.0",
+    "react-native-refresh-list-view": "^1.0.10",
+    "react-native-scrollable-tab-view": "^0.7.4",
+    "react-native-splash-screen": "^3.1.1",
+    "react-native-swRefresh": "^1.2.3",
+    "react-native-swiper": "^1.5.14",
+    "react-native-tab-navigator": "^0.3.4",
+    "react-native-vector-icons": "^4.6.0"
+  },
+  "devDependencies": {
+    "babel-jest": "23.6.0",
+    "babel-preset-react-native": "4.0.1",
+    "jest": "23.6.0",
+    "react-test-renderer": "16.0.0-alpha.12"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
